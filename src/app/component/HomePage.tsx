@@ -84,7 +84,6 @@ function HomePage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Scroll to the top when the button is clicked
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
